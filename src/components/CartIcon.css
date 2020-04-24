@@ -1,0 +1,14 @@
+#CartIcon i{
+    font-size: 24px;
+color: white;
+}
+
+#CartIcon span{
+   position: absolute;
+   top: 5px;
+   right: 5px;
+}
+
+#delete{
+    color: white;
+}
