@@ -8,6 +8,7 @@ import ProductDetail from './components/ProductDetail'
 import CartIcon from './components/CartIcon'
 import {Provider} from 'react-redux'
 import Store from './store/Store'
+import NotFound from './components/NotFound'
 
 
 class App extends Component {
@@ -40,6 +41,7 @@ class App extends Component {
 <Route path="/products" component={Products} exact/>
 <Route path="/products/:id" component={ProductDetail} exact/>
 <Route path="/cart" component={Cart} exact />
+<Route  component={NotFound}/>
 
 
       </Router>

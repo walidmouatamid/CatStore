@@ -1,4 +1,4 @@
-import {ADD_TO_CART,DELETE_FROM_CART} from './Types';
+import {ADD_TO_CART,DELETE_FROM_CART,CLEAR_CART} from './Types';
 
 
 export function addToCart(product,quantity){
@@ -16,3 +16,9 @@ export function deleteFromCart(index){
         
     }
     }
+
+    export function clearCart(){
+        return{
+            type :CLEAR_CART,
+        }
+        }

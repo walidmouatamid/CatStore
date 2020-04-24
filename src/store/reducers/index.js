@@ -1,4 +1,4 @@
-import {ADD_TO_CART,DELETE_FROM_CART} from '../actions/Types'
+import {ADD_TO_CART,DELETE_FROM_CART,CLEAR_CART} from '../actions/Types'
 export default function cartReducer(state,action){
 
 switch(action.type){
@@ -18,6 +18,12 @@ switch(action.type){
         const item_index=action.index;
         const new_state = {...state};
         new_state.cart.splice(item_index,1);
+
+        return  new_state;
+    }
+    case  CLEAR_CART:{
+        const new_state = {...state};
+        new_state.cart=[];
 
         return  new_state;
     }
