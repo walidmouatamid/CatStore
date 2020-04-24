@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import {BrowserRouter as Router,Route,Link } from 'react-router-dom'
+import {BrowserRouter as Router,Route,Link, Switch } from 'react-router-dom'
 import './App.css';
 import Home from './components/Home'
 import Products from './components/Products'
@@ -36,12 +36,14 @@ class App extends Component {
 <CartIcon/>
   </div>
 </nav>
+<Switch>
 
 <Route path="/" component={Home} exact/>
 <Route path="/products" component={Products} exact/>
 <Route path="/products/:id" component={ProductDetail} exact/>
 <Route path="/cart" component={Cart} exact />
 <Route  component={NotFound}/>
+</Switch>
 
 
       </Router>
