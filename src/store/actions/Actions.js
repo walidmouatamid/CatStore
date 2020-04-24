@@ -1,5 +1,5 @@
-import {ADD_TO_CART} from './Types';
-import React from 'react'
+import {ADD_TO_CART,DELETE_FROM_CART} from './Types';
+
 
 export function addToCart(product,quantity){
 return{
@@ -9,3 +9,10 @@ return{
     
 }
 }
+export function deleteFromCart(index){
+    return{
+        type :DELETE_FROM_CART,
+        index
+        
+    }
+    }

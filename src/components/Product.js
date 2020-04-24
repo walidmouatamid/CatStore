@@ -4,7 +4,7 @@ import {Link} from 'react-router-dom'
 export class Product extends Component {
     render(props) {
         return (
-            <div className="col-md-4" key={this.props.product.id}>
+            <div className="col-md-4" key={this.props.index}>
 
                 <div className="card" >
   <img src={this.props.product.image} className="card-img-top" alt="..." style={{maxHeight:"400px"}}/>

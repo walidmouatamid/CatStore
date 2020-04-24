@@ -1,6 +1,5 @@
 import React, { Component } from 'react'
 import ProductInCart from './ProductInCart'
-import Store from '../store/Store'
 import {connect} from 'react-redux'
 
 class Cart extends Component {
@@ -12,12 +11,12 @@ class Cart extends Component {
                  <div className="container">
                    <h1>Cart</h1>
                <div className="row">
-                   {this.props.cart.map(cat=><ProductInCart product={cat}/>)}
+                   {this.props.cart.map((cat,index)=><ProductInCart product={cat} index={index}/>)}
               
                </div>
                
             <h3>Total : {this.props.total}$</h3>
-               <a href="#" className="btn btn-primary btn-block">Pay</a>
+               <button  className="btn btn-primary btn-block">Pay</button>
             </div>
            
         )

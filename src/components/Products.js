@@ -19,7 +19,7 @@ state = {
             <div className="container">
                    <h1>Products</h1>
                <div className="row">
-                   {this.state.cats.map(cat=><Product product={cat}/>)}
+                   {this.state.cats.map((cat,index)=><Product index={index} product={cat}/>)}
               
                </div>
             </div>

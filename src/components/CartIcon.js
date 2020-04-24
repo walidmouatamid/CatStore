@@ -1,7 +1,6 @@
 import React from 'react'
 import "./CartIcon.css"
 import {Link} from 'react-router-dom'
-import Store from '../store/Store'
 import {connect} from 'react-redux'
 
  function CartIcon(props) {
