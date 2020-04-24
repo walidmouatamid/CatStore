@@ -9,7 +9,7 @@ state = {
 
     componentDidMount=()=>{
             getProducts().then(result=>this.setState({
-                cats:result.data
+                cats:result
             }))
         
     }
