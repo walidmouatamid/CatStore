@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import ProductInCart from './ProductInCart'
+import ProductInCart from '../components/ProductInCart'
 import {connect} from 'react-redux'
 import {clearCart} from '../store/actions/Actions'
 
@@ -7,6 +7,7 @@ class Cart extends Component {
 
 placeorder=()=>{
     //after send order
+    window.alert("we received your order, and we are working on it.")
     this.props.clearCart();
 }
     render() {

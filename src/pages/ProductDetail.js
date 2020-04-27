@@ -13,9 +13,17 @@ class ProductDetail extends Component {
     componentDidMount = () => {
 
         const id = this.props.match.params.id
-        getProductDetails(parseInt(id)).then(result => this.setState({
-            cat: result
-        }))
+        if(this.props.match.params.type=="cats"){
+            getProductDetails(parseInt(id),"cats").then(result => this.setState({
+                cat: result
+            }))
+        }
+        else{
+            getProductDetails(parseInt(id),"cats_lover").then(result => this.setState({
+                cat: result
+            }))
+        }
+      
 
     }
     back = () => {
@@ -24,12 +32,21 @@ class ProductDetail extends Component {
     quantityChange = (event) => {
         this.setState({ quantity: event.target.value })
     }
+    style={
+        "position": "absolute",
+        "left": "0",
+        "top": "0",
+        "width": "100%",
+        "height": "100vh",
+        "opacity": "0.3",
+        "zIndex":"-2000"
+    }
 
     render() {
         return (
-            <div>
-
-                <div className="card mb-3 mx-auto" style={{ "maxWidth": "540px" }}>
+            <div >
+<img  src={this.state.cat.image} style={this.style}/>
+                <div className="card mb-3 mx-auto " style={{ "maxWidth": "650px" }}>
                     <div className="row no-gutters">
                         <div className="col-md-4">
                             <img src={this.state.cat.image} className="card-img" alt="..." />
@@ -41,7 +58,7 @@ class ProductDetail extends Component {
                                 <p className="card-text"><small className="text-muted">Price {this.state.cat.price}$</small></p>
                                 <input type="number" min="0" value={this.state.quantity} onChange={this.quantityChange} />
                                 <button onClick={() => this.props.addToCart(this.state.cat, this.state.quantity)} className="btn btn-info">Add to cart</button><br />
-                                <p className="card-text">Total :{this.state.cat.price * this.state.quantity}$</p>
+                                <p className="card-text">Total :{(this.state.cat.price * this.state.quantity).toFixed(2)}$</p>
                                 <button onClick={this.back} className="btn btn-danger">back</button>
                             </div>
                         </div>

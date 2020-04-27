@@ -1,13 +1,19 @@
 import products from './products.json'
 
 
-export  function getProducts(){
-        return Promise.resolve(products);
+export  function getProducts(type){
+    if(type=="cats_lover")
+        return Promise.resolve(products.cats_lover);
+    else if(type=="cats")
+    return Promise.resolve(products.cats);
 }
 
-export function getProductDetails(id){
-    const product = products.find(item => item.id === id);
-
+export function getProductDetails(id,type){
+    var product=""
+    if(type=="cats_lover")
+    product = products.cats_lover.find(item => item.id === id);
+    else if(type=="cats")
+    product = products.cats.find(item => item.id === id);
     return Promise.resolve(product);
 }
 

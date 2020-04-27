@@ -1,4 +1,5 @@
-[
+{
+  "cats": [
     {
       "id": 1,
       "name": "White Cat",
@@ -27,4 +28,105 @@
       "image": "/imgs/4.jpg",
       "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the\n          industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     }
+  ],
+  "cats_lover": [
+    {
+      "id": 1,
+      "name": "ADORABLE KITTY NOTEBOOK",
+      "price": 7.99,
+      "image": "/imgs/cats_lover/Adorable-Kitty-Notebook_01.jpg",
+      "description": "Adorable kitty notebook, four designs available. Write down everything you need to keep your day organized. These A5 (148×210 mm.) notebooks fit easily in your purse to take notes on the go.This adorable kitty notebook makes a perfect little sketchbook for cat doodles!"
+    },
+    {
+      "id": 2,
+      "name": "BLACK CAT DECORATIVE WALL CLOCK",
+      "price": 29.99,
+      "image": "/imgs/cats_lover/Black-Cat-Decorative-Wall-Clock_01.jpg",
+      "description": "Black cat decorative wall clock.\n Beautiful and cute, this wall clock is perfect for your living room!\nEnvironmental, waterproof and corrosion-resistant.\nSimple, elegant and full of rhythm, expands the sense of space. Landscaping decoration.\nIt can be affixed to any flat surface.\nEasy to paste, environmental protection materials, waterproof.\nBlack cat decorative wall clock with a unique design.\n"
+    },
+    {
+      "id": 3,
+      "name": "BLACK CAT FISHING DECORATIVE WALL CLOCK",
+      "price": 27.99,
+      "image": "/imgs/cats_lover/Black-Cat-Fishing-Decorative-Wall-Clock_01.jpg",
+      "description": "Black cat fishing decorative wall clock.\nBeautiful and cute, perfect for your living room!\nCorrosion-resistant.\nSimple, elegant and full of rhythm, expands the sense of space. Landscaping decoration.\nIt can be affixed to any flat surface.\nEasy to clean.\nElegant design, black cat fishing decorative wall clock.\nBattery: 1AA (Not Included)."
+    },
+    {
+      "id": 4,
+      "name": "CAT FISH NECKLACE, 925 STERLING SILVER",
+      "price": 16.99,
+      "image": "/imgs/cats_lover/Cat-Fish-Necklace_01.jpg",
+      "description": "Cat fish necklace, 925 Sterling Silver.\n100% 925 Sterling Silver, super cute jewelry for women, small and delicate.\nThe cat fish necklace is a perfect gift for your cat lover friend!"
+    },
+    {
+      "id": 5,
+      "name": "CAT ON THE MOON BRACELET",
+      "price": 15.99,
+      "image": "/imgs/cats_lover/Cat-on-the-Moon-Necklace_01.jpg",
+      "description": "Cat on the Moon Bracelet.\nSterling Silver, super trendy and fashionable.\nThe cat on the moon bracelet is a great accessory for girls and women who love cats.\nCharming and attractive on all occasions."
+    },
+    {
+      "id": 6,
+      "name": "CAT PAW SILVER NECKLACE",
+      "price": 13.99,
+      "image": "/imgs/cats_lover/Cat-Paw-Silver-Necklace_01.jpg",
+      "description": "Cat paw silver necklace, 925 Sterling Silver.\n100% 925 Sterling Silver, super cute jewelry for women, small and delicate.\nThe cat paw silver necklace is a perfect gift for your cat lover friend!"
+    },
+    {
+      "id": 7,
+      "name": "CAT SHAPED NIGHT LIGHT",
+      "price": 12.99,
+      "image": "/imgs/cats_lover/Cat-Shaped-Night-Light_01.jpg",
+      "description": "Cat shaped night light.\nSay hello to this Kawaii Kitten Night Light, an adorable night cat lamp that stays by your side and brings brightness, warmth, and happiness to you. You can change the light color by tapping on the Kitten or you can poke this little ball when you are upset.\n Touch it, feel it, and have fun with this great cat home décor!\nDimensions: 90×102 mm.\nCat shaped night light, three design options: Lovely Cat | Popular Cat | Clever Cat.\nCat printed design.\nSilicone night lamp.\nChange between seven colors by tapping on the kitten.\nTrendy and cute home décor.\nAAA Battery Type."
+    },
+    {
+      "id": 8,
+      "name": "CUTE CAT EARS PURSE WALLET WITH TASSEL",
+      "price": 10.99,
+      "image": "/imgs/cats_lover/Cute-Cat-Ears-Purse-Wallet-with-Tassel_01.jpg",
+      "description": "Cute cat ears purse wallet.\nSeveral colors to choose from! PU Leather vintage purse wallet, trendy and cute, a perfect gift for a cat lover girl.\nDurable and fashionable.\nSuper cute and trendy, original design.\nClosure Type: Zipper & Hasp.\nCute cat ears purse wallet with decorative tassel.\nNote Compartment, Photo Holder, Card Holder."
+    },
+    {
+      "id": 9,
+      "name": "FIVE PAIR HAPPY CAT PRINTED SOCKS",
+      "price": 15.99,
+      "image": "/imgs/cats_lover/Five-Pair-Happy-Cat-Printed-Socks_01.jpg",
+      "description": "Five pair happy cat printed socks.\nFive pair package with cute printing in each pair. Cotton socks, fashionable and cute happy cat design.\nBrand Name: LIONZONE.\nMaterial: Cotton, Polyester.\nThickness: Standard.\nItem Length: US7-9.\nSock Type: Casual.\nPattern Type: Animal.\nItem Type: Sock.\nFabric content: 85% Cotton,\n15% Polyester.\nFunction: Breathable.\nPattern: Animal Print, Cartoon Cat.\nSeason: Spring, Summer.\nStyle: Ankle-High.\nColor: Multi-Color.\nWeight: About 0.165 Kg."
+    },
+    {
+      "id": 10,
+      "name": "GOTHIC CAT PRINTED PAJAMA SET",
+      "price": 22.99,
+      "image": "/imgs/cats_lover/Gothic-Cat-Printed-Pajama-Set_01.jpg",
+      "description": "Gothic cat printed pajama set.\nSay good night to your kitty and sweet dreams for you both! Get a good night’s sleep with this comfy pajama set.\nComfortable nightwear set so you can cuddle up with your cat. You will be a legit Cat Lady!\nSize: XS | S | M | L | XL\nGothic cat printed pajama set, super cute and trendy."
+    },
+    {
+      "id": 11,
+      "name": "HOLLOW CAT WITH BELL BRACELET",
+      "price": 9.99,
+      "image": "/imgs/cats_lover/Hollow-Cat-with-Bell-Bracelet_01.jpg",
+      "description": "Hollow cat with bell bracelet.\n100% 925 Sterling Silver, super cute bracelet for women, small and delicate.\nThe hollow cat with bell bracelet is a must-have for the cat lover girl."
+    },
+    {
+      "id": 12,
+      "name": "HOLLOW CAT WITH BELL NECKLACE",
+      "price": 14.99,
+      "image": "/imgs/cats_lover/Hollow-Cat-with-Bell-Necklace-by-Flyleaf_01.jpg",
+      "description": "Hollow cat with bell necklace by Flyleaf.\n100% 925 Sterling Silver, super cute choker style jewelry for women, small and delicate.\nThe hollow cat with bell necklace is a must-have for the cat lover girl."
+    },
+    {
+      "id": 13,
+      "name": "LACE CAT EARS HEADBAND",
+      "price": 0.99,
+      "image": "/imgs/cats_lover/Lace-Cat-Ears-Headband_01-e1568734507370.jpg",
+      "description": "Lace cat ears headband.\nA perfect accessory to embrace your inner cat!\nFit for many occasions such as baby shower, Halloween, family photo, cosplay party or a birthday party.\n The lace cat ears headband is the perfect accessory for birthday celebrations, memorable photoshoots and every day fun for dress-up.\nComfortable to wear, made of polyester fabric, totally handmade.\nSize: One size fits all.\nLace cat ears design, super cute and trendy."
+    },
+    {
+      "id": 14,
+      "name": "SAILOR MOON LUNA SHOULDER BAG",
+      "price": 20.99,
+      "image": "/imgs/cats_lover/Sailor-Moon-Luna-Shoulder-Bag_01.jpg",
+      "description": "Sailor Moon Luna shoulder bag.\nBlack or white for Luna or Artemis. Fashionable shoulder bag, spacious and practical! They will shine with you wherever you go.\nDurable and fashionable.\nSuper cute, unique and practical.\nPerfect as casual bag.\nAdjustable and wide shoulder strap for comfortable shouldering.\nSailor Moon Luna shoulder bag, original design and very lightweight shoulder bag."
+    }
   ]
+}
