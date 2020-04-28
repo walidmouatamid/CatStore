@@ -8,9 +8,9 @@ export class Products extends Component {
     render() {
         return (
             <div className="container">
-                <Cats/>
-                <br/>
                 <CatsLovers/>
+                <br/>
+                <Cats/>
             </div>
         )
     }

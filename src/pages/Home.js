@@ -9,7 +9,7 @@ export class Home extends Component {
   <header className=" py-5 mb-5 bg-cat"   >
     <div className="container h-100">
       <div className="row h-100 align-items-center">
-        <div className="col-lg-12">
+        <div className="col-lg-12" style={{"color": "black"}}>
           <h1 className="display-4 text-dark mt-5 mb-5 ">CatStore</h1>
           <p className="lead mb-5 text-dark-50 txt">At Just Cats, we are all about providing cats and their people with high quality products.<br/>
           We have selectively choosen the best, high quality products for you and your felines. </p>
