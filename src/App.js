@@ -40,11 +40,11 @@ class App extends Component {
         <Link className="nav-link dropdown-toggle" to="/products"  id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
         Products
         </Link>
-        <div class="dropdown-menu" to="/products" aria-labelledby="navbarDropdown">
-        <Link class="dropdown-item" to="/products" >All products</Link>
-          <Link class="dropdown-item" to="/products/cats_lovers" >Shop for cat lovers</Link>
-          <Link class="dropdown-item" to="/products/shop_for_cats" >shop for cats</Link>
-          <Link class="dropdown-item" to="/products/cats" >Cats & Kittens For Sale</Link>
+        <div className="dropdown-menu" to="/products" aria-labelledby="navbarDropdown">
+        <Link className="dropdown-item" to="/products" >All products</Link>
+          <Link className="dropdown-item" to="/products/cats_lovers" >Shop for cat lovers</Link>
+          <Link className="dropdown-item" to="/products/shop_for_cats" >shop for cats</Link>
+          <Link className="dropdown-item" to="/products/cats" >Cats & Kittens For Sale</Link>
           </div>
       </li>
               <li className="nav-item">
