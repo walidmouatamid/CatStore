@@ -13,12 +13,12 @@ class ProductDetail extends Component {
     componentDidMount = () => {
 
         const id = this.props.match.params.id
-        if(this.props.match.params.type=="cats"){
+        if(this.props.match.params.type==="cats"){
             getProductDetails(parseInt(id),"cats").then(result => this.setState({
                 cat: result
             }))
         }
-        else if(this.props.match.params.type=="shop_for_cats"){
+        else if(this.props.match.params.type==="shop_for_cats"){
             getProductDetails(parseInt(id),"shop_for_cats").then(result => this.setState({
                 cat: result
             }))
