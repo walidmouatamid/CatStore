@@ -1,4 +1,4 @@
-import {createStore,compose,applyMiddleware} from 'redux'
+import {createStore,applyMiddleware} from 'redux'
 import thunk from 'redux-thunk'
 import cartReducer from './reducers'
 import throttle from 'lodash.throttle';
@@ -26,6 +26,6 @@ function saveState(state){
 }
 
 
-const store=createStore(cartReducer,loadState(),compose(applyMiddleware(thunk), window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__()));
+const store=createStore(cartReducer,loadState(),applyMiddleware(thunk));
 store.subscribe(throttle(()=>{saveState(store.getState())},3000))
 export default store;
