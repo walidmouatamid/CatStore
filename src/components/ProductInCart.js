@@ -14,7 +14,7 @@ class ProductInCart extends Component {
     <h5 className="card-title">{this.props.product.product.name}</h5>
         <p className="card-text">Price {this.props.product.product.price}$</p>
         <p className="card-text">Quantity: {this.props.product.quantity}</p>
-        <p className="card-text">Total: {this.props.product.product.price*this.props.product.quantity}$</p>
+        <p className="card-text">Total: {(this.props.product.product.price*this.props.product.quantity).toFixed(2)}$</p>
         <button onClick={()=>this.props.deleteFromCart(this.props.index)} className="btn btn-danger" id="delete"><i className="fa fa-trash"></i> Delete</button>
   </div>
 </div>

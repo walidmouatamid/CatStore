@@ -8,10 +8,8 @@
     font-size: 40px;
   }
   .bg-cat{
-    background-image: url('/imgs/IMG_10911.jpg')  ;
+    background: url('/imgs/IMG_10911.jpg') no-repeat center center fixed ;
     background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
     height: 540px !important;}
     .txt{
       font-size: 28px !important;
