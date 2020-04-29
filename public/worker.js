@@ -1,5 +1,5 @@
-Let CACHE_NAME = 'my-app';
-Let urlsToCache = [
+CACHE_NAME = 'my-app';
+ urlsToCache = [
   '/',
   '/completed'
 ];
@@ -33,7 +33,7 @@ self.addEventListener('fetch', event => {
 
 // Update a service worker
 self.addEventListener('activate', event => {
-  Let cacheWhitelist = ['my-app'];
+   cacheWhitelist = ['my-app'];
   event.waitUntil(
     caches.keys().then(cacheNames => {
       return Promise.all(
