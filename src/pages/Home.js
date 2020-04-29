@@ -9,7 +9,7 @@ export class Home extends Component {
     <div className="container h-100">
       <div className="row h-100 align-items-center">
         <div className="col-lg-12" style={{"color": "black"}}>
-          <h1 className="display-4 text-dark mt-5 mb-5 ">CatStore</h1>
+          <h1 className="display-4 text-dark mt-4 mb-5 ">CatStore</h1>
           <p className="lead mb-5 text-dark-50 txt">At CatsStore, we are all about providing cats and their people with high quality products.<br/>
           We have selectively choosen the best, high quality products for you and your felines. </p>
         </div>
@@ -86,7 +86,7 @@ export class Home extends Component {
 
 
         </div>
-        <div className="col-md-6 text-center order-md-first align-self-center">
+        <div className="col-md-6 text-center align-self-center">
           <h5 id="contact">Contact us</h5>
           <ul className="list-unstyled mb-0">
             <li><i className="fas fa-envelope mt-4 fa-2x"></i>
