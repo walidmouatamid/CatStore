@@ -11,6 +11,7 @@ import Store from './store/Store'
 import NotFound from './pages/NotFound'
 import CatsLovers from './components/CatsLovers'
 import Cats from './components/Cats'
+import ShopForCats from './components/ShopForCats'
 
 
 class App extends Component {
@@ -42,13 +43,10 @@ class App extends Component {
         <div class="dropdown-menu" to="/products" aria-labelledby="navbarDropdown">
         <Link class="dropdown-item" to="/products" >All products</Link>
           <Link class="dropdown-item" to="/products/cats_lovers" >Shop for cat lovers</Link>
-          <Link class="dropdown-item" to="/products/cats" >Shop for cats</Link>
+          <Link class="dropdown-item" to="/products/shop_for_cats" >shop for cats</Link>
+          <Link class="dropdown-item" to="/products/cats" >Cats & Kittens For Sale</Link>
           </div>
       </li>
-
-
-
-
               <li className="nav-item">
                 <Link className="nav-link" to="/cart">Cart</Link>
               </li>
@@ -61,6 +59,7 @@ class App extends Component {
 <Route path="/products" component={Products} exact/>
 <Route path="/products/:type/:id" component={ProductDetail} exact/>
 <Route path="/products/cats_lovers" component={CatsLovers} exact/>
+<Route path="/products/shop_for_cats" component={ShopForCats} exact/>
 <Route path="/products/cats" component={Cats} exact/>
 <Route path="/cart" component={Cart} exact />
 <Route  component={NotFound}/>

@@ -6,6 +6,9 @@ export  function getProducts(type){
         return Promise.resolve(products.cats_lover);
     else if(type=="cats")
     return Promise.resolve(products.cats);
+    else{
+        return Promise.resolve(products.shop_for_cats);
+    }
 }
 
 export function getProductDetails(id,type){
@@ -14,6 +17,8 @@ export function getProductDetails(id,type){
     product = products.cats_lover.find(item => item.id === id);
     else if(type=="cats")
     product = products.cats.find(item => item.id === id);
+    else
+    product = products.shop_for_cats.find(item => item.id === id);
     return Promise.resolve(product);
 }
 
