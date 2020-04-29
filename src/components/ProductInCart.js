@@ -6,7 +6,7 @@ import {deleteFromCart} from '../store/actions/Actions'
 class ProductInCart extends Component {
     render(props) {
         return (
-            <div className="col-md-2" key={this.props.index}>
+            <div className="col-md-3" key={this.props.index}>
 
                 <div className="card" >
   <img src={this.props.product.product.image} className="card-img-top" alt="..." style={{maxHeight:"400px"}}/>

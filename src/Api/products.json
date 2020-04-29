@@ -1,132 +1,175 @@
-{
-  "cats": [
-    {
-      "id": 1,
-      "name": "White Cat",
-      "price": 3000,
-      "image": "/imgs/1.jpg",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the\n          industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-    },
-    {
-      "id": 2,
-      "name": "Angry Cat",
-      "price": 1000,
-      "image": "/imgs/2.jpg",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the\n          industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-    },
-    {
-      "id": 3,
-      "name": "Bengal cat",
-      "price": 2000,
-      "image": "/imgs/3.jpg",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the\n          industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-    },
-    {
-      "id": 4,
-      "name": "Persian cat",
-      "price": 1500,
-      "image": "/imgs/4.jpg",
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the\n          industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
-    }
-  ],
-  "cats_lover": [
-    {
-      "id": 1,
-      "name": "ADORABLE KITTY NOTEBOOK",
-      "price": 7.99,
-      "image": "/imgs/cats_lover/Adorable-Kitty-Notebook_01.jpg",
-      "description": "Adorable kitty notebook, four designs available. Write down everything you need to keep your day organized. These A5 (148×210 mm.) notebooks fit easily in your purse to take notes on the go.This adorable kitty notebook makes a perfect little sketchbook for cat doodles!"
-    },
-    {
-      "id": 2,
-      "name": "BLACK CAT DECORATIVE WALL CLOCK",
-      "price": 29.99,
-      "image": "/imgs/cats_lover/Black-Cat-Decorative-Wall-Clock_01.jpg",
-      "description": "Black cat decorative wall clock.\n Beautiful and cute, this wall clock is perfect for your living room!\nEnvironmental, waterproof and corrosion-resistant.\nSimple, elegant and full of rhythm, expands the sense of space. Landscaping decoration.\nIt can be affixed to any flat surface.\nEasy to paste, environmental protection materials, waterproof.\nBlack cat decorative wall clock with a unique design.\n"
-    },
-    {
-      "id": 3,
-      "name": "BLACK CAT FISHING DECORATIVE WALL CLOCK",
-      "price": 27.99,
-      "image": "/imgs/cats_lover/Black-Cat-Fishing-Decorative-Wall-Clock_01.jpg",
-      "description": "Black cat fishing decorative wall clock.\nBeautiful and cute, perfect for your living room!\nCorrosion-resistant.\nSimple, elegant and full of rhythm, expands the sense of space. Landscaping decoration.\nIt can be affixed to any flat surface.\nEasy to clean.\nElegant design, black cat fishing decorative wall clock.\nBattery: 1AA (Not Included)."
-    },
-    {
-      "id": 4,
-      "name": "CAT FISH NECKLACE, 925 STERLING SILVER",
-      "price": 16.99,
-      "image": "/imgs/cats_lover/Cat-Fish-Necklace_01.jpg",
-      "description": "Cat fish necklace, 925 Sterling Silver.\n100% 925 Sterling Silver, super cute jewelry for women, small and delicate.\nThe cat fish necklace is a perfect gift for your cat lover friend!"
-    },
-    {
-      "id": 5,
-      "name": "CAT ON THE MOON BRACELET",
-      "price": 15.99,
-      "image": "/imgs/cats_lover/Cat-on-the-Moon-Necklace_01.jpg",
-      "description": "Cat on the Moon Bracelet.\nSterling Silver, super trendy and fashionable.\nThe cat on the moon bracelet is a great accessory for girls and women who love cats.\nCharming and attractive on all occasions."
-    },
-    {
-      "id": 6,
-      "name": "CAT PAW SILVER NECKLACE",
-      "price": 13.99,
-      "image": "/imgs/cats_lover/Cat-Paw-Silver-Necklace_01.jpg",
-      "description": "Cat paw silver necklace, 925 Sterling Silver.\n100% 925 Sterling Silver, super cute jewelry for women, small and delicate.\nThe cat paw silver necklace is a perfect gift for your cat lover friend!"
-    },
-    {
-      "id": 7,
-      "name": "CAT SHAPED NIGHT LIGHT",
-      "price": 12.99,
-      "image": "/imgs/cats_lover/Cat-Shaped-Night-Light_01.jpg",
-      "description": "Cat shaped night light.\nSay hello to this Kawaii Kitten Night Light, an adorable night cat lamp that stays by your side and brings brightness, warmth, and happiness to you. You can change the light color by tapping on the Kitten or you can poke this little ball when you are upset.\n Touch it, feel it, and have fun with this great cat home décor!\nDimensions: 90×102 mm.\nCat shaped night light, three design options: Lovely Cat | Popular Cat | Clever Cat.\nCat printed design.\nSilicone night lamp.\nChange between seven colors by tapping on the kitten.\nTrendy and cute home décor.\nAAA Battery Type."
-    },
-    {
-      "id": 8,
-      "name": "CUTE CAT EARS PURSE WALLET WITH TASSEL",
-      "price": 10.99,
-      "image": "/imgs/cats_lover/Cute-Cat-Ears-Purse-Wallet-with-Tassel_01.jpg",
-      "description": "Cute cat ears purse wallet.\nSeveral colors to choose from! PU Leather vintage purse wallet, trendy and cute, a perfect gift for a cat lover girl.\nDurable and fashionable.\nSuper cute and trendy, original design.\nClosure Type: Zipper & Hasp.\nCute cat ears purse wallet with decorative tassel.\nNote Compartment, Photo Holder, Card Holder."
-    },
-    {
-      "id": 9,
-      "name": "FIVE PAIR HAPPY CAT PRINTED SOCKS",
-      "price": 15.99,
-      "image": "/imgs/cats_lover/Five-Pair-Happy-Cat-Printed-Socks_01.jpg",
-      "description": "Five pair happy cat printed socks.\nFive pair package with cute printing in each pair. Cotton socks, fashionable and cute happy cat design.\nBrand Name: LIONZONE.\nMaterial: Cotton, Polyester.\nThickness: Standard.\nItem Length: US7-9.\nSock Type: Casual.\nPattern Type: Animal.\nItem Type: Sock.\nFabric content: 85% Cotton,\n15% Polyester.\nFunction: Breathable.\nPattern: Animal Print, Cartoon Cat.\nSeason: Spring, Summer.\nStyle: Ankle-High.\nColor: Multi-Color.\nWeight: About 0.165 Kg."
-    },
-    {
-      "id": 10,
-      "name": "GOTHIC CAT PRINTED PAJAMA SET",
-      "price": 22.99,
-      "image": "/imgs/cats_lover/Gothic-Cat-Printed-Pajama-Set_01.jpg",
-      "description": "Gothic cat printed pajama set.\nSay good night to your kitty and sweet dreams for you both! Get a good night’s sleep with this comfy pajama set.\nComfortable nightwear set so you can cuddle up with your cat. You will be a legit Cat Lady!\nSize: XS | S | M | L | XL\nGothic cat printed pajama set, super cute and trendy."
-    },
-    {
-      "id": 11,
-      "name": "HOLLOW CAT WITH BELL BRACELET",
-      "price": 9.99,
-      "image": "/imgs/cats_lover/Hollow-Cat-with-Bell-Bracelet_01.jpg",
-      "description": "Hollow cat with bell bracelet.\n100% 925 Sterling Silver, super cute bracelet for women, small and delicate.\nThe hollow cat with bell bracelet is a must-have for the cat lover girl."
-    },
-    {
-      "id": 12,
-      "name": "HOLLOW CAT WITH BELL NECKLACE",
-      "price": 14.99,
-      "image": "/imgs/cats_lover/Hollow-Cat-with-Bell-Necklace-by-Flyleaf_01.jpg",
-      "description": "Hollow cat with bell necklace by Flyleaf.\n100% 925 Sterling Silver, super cute choker style jewelry for women, small and delicate.\nThe hollow cat with bell necklace is a must-have for the cat lover girl."
-    },
-    {
-      "id": 13,
-      "name": "LACE CAT EARS HEADBAND",
-      "price": 0.99,
-      "image": "/imgs/cats_lover/Lace-Cat-Ears-Headband_01-e1568734507370.jpg",
-      "description": "Lace cat ears headband.\nA perfect accessory to embrace your inner cat!\nFit for many occasions such as baby shower, Halloween, family photo, cosplay party or a birthday party.\n The lace cat ears headband is the perfect accessory for birthday celebrations, memorable photoshoots and every day fun for dress-up.\nComfortable to wear, made of polyester fabric, totally handmade.\nSize: One size fits all.\nLace cat ears design, super cute and trendy."
-    },
-    {
-      "id": 14,
-      "name": "SAILOR MOON LUNA SHOULDER BAG",
-      "price": 20.99,
-      "image": "/imgs/cats_lover/Sailor-Moon-Luna-Shoulder-Bag_01.jpg",
-      "description": "Sailor Moon Luna shoulder bag.\nBlack or white for Luna or Artemis. Fashionable shoulder bag, spacious and practical! They will shine with you wherever you go.\nDurable and fashionable.\nSuper cute, unique and practical.\nPerfect as casual bag.\nAdjustable and wide shoulder strap for comfortable shouldering.\nSailor Moon Luna shoulder bag, original design and very lightweight shoulder bag."
-    }
-  ]
-}
+{ "cats": [
+ { "id": 1,
+ "name": "White Cat",
+ "price": 3000,
+ "image": "/imgs/1.jpg",
+ "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been then          industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+ },
+ { "id": 2,
+ "name": "Angry Cat",
+ "price": 1000,
+ "image": "/imgs/2.jpg",
+ "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been then          industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+ },
+ { "id": 3,
+ "name": "Bengal cat",
+ "price": 2000,
+ "image": "/imgs/3.jpg",
+ "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been then          industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+ },
+ { "id": 4,
+ "name": "Persian cat",
+ "price": 1500,
+ "image": "/imgs/4.jpg",
+ "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been then          industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+ } ],
+ "cats_lover": [
+ { "id": 1,
+ "name": "ADORABLE KITTY NOTEBOOK",
+ "price": 7.99,
+ "image": "/imgs/cats_lover/Adorable-Kitty-Notebook_01.jpg", "description": "Adorable kitty notebook, four designs available. Write down everything you need to keep your day organized. These A5 (148×210 mm.) notebooks fit easily in your purse to take notes on the go.This adorable kitty notebook makes a perfect little sketchbook for cat doodles!"
+ },
+ { "id": 2,
+ "name": "BLACK CAT DECORATIVE WALL CLOCK",
+ "price": 29.99,
+ "image": "/imgs/cats_lover/Black-Cat-Decorative-Wall-Clock_01.jpg", "description": "Black cat decorative wall clock.n Beautiful and cute, this wall clock is perfect for your living room!nEnvironmental, waterproof and corrosion-resistant.nSimple, elegant and full of rhythm, expands the sense of space. Landscaping decoration.nIt can be affixed to any flat surface.nEasy to paste, environmental protection materials, waterproof.nBlack cat decorative wall clock with a unique design.n"
+ },
+ { "id": 3,
+ "name": "BLACK CAT FISHING DECORATIVE WALL CLOCK", "price": 27.99,
+ "image": "/imgs/cats_lover/Black-Cat-Fishing-Decorative-Wall-Clock_01.jpg", "description": "Black cat fishing decorative wall clock.nBeautiful and cute, perfect for your living room!nCorrosion-resistant.nSimple, elegant and full of rhythm, expands the sense of space. Landscaping decoration.nIt can be affixed to any flat surface.nEasy to clean.nElegant design, black cat fishing decorative wall clock.nBattery: 1AA (Not Included)."
+ },
+ { "id": 4,
+ "name": "CAT FISH NECKLACE, 925 STERLING SILVER",
+ "price": 16.99,
+ "image": "/imgs/cats_lover/Cat-Fish-Necklace_01.jpg", "description": "Cat fish necklace, 925 Sterling Silver.n100% 925 Sterling Silver, super cute jewelry for women, small and delicate.nThe cat fish necklace is a perfect gift for your cat lover friend!"
+ },
+ { "id": 5,
+ "name": "CAT ON THE MOON BRACELET",
+ "price": 15.99,
+ "image": "/imgs/cats_lover/Cat-on-the-Moon-Necklace_01.jpg", "description": "Cat on the Moon Bracelet.nSterling Silver, super trendy and fashionable.nThe cat on the moon bracelet is a great accessory for girls and women who love cats.nCharming and attractive on all occasions."
+ },
+ { "id": 6,
+ "name": "CAT PAW SILVER NECKLACE",
+ "price": 13.99,
+ "image": "/imgs/cats_lover/Cat-Paw-Silver-Necklace_01.jpg", "description": "Cat paw silver necklace, 925 Sterling Silver.n100% 925 Sterling Silver, super cute jewelry for women, small and delicate.nThe cat paw silver necklace is a perfect gift for your cat lover friend!"
+ },
+ { "id": 7,
+ "name": "CAT SHAPED NIGHT LIGHT",
+ "price": 12.99,
+ "image": "/imgs/cats_lover/Cat-Shaped-Night-Light_01.jpg", "description": "Cat shaped night light.nSay hello to this Kawaii Kitten Night Light, an adorable night cat lamp that stays by your side and brings brightness, warmth, and happiness to you. You can change the light color by tapping on the Kitten or you can poke this little ball when you are upset.n Touch it, feel it, and have fun with this great cat home décor!nDimensions: 90×102 mm.nCat shaped night light, three design options: Lovely Cat | Popular Cat | Clever Cat.nCat printed design.nSilicone night lamp.nChange between seven colors by tapping on the kitten.nTrendy and cute home décor.nAAA Battery Type."
+ },
+ { "id": 8,
+ "name": "CUTE CAT EARS PURSE WALLET WITH TASSEL",
+ "price": 10.99,
+ "image": "/imgs/cats_lover/Cute-Cat-Ears-Purse-Wallet-with-Tassel_01.jpg", "description": "Cute cat ears purse wallet.nSeveral colors to choose from! PU Leather vintage purse wallet, trendy and cute, a perfect gift for a cat lover girl.nDurable and fashionable.nSuper cute and trendy, original design.nClosure Type: Zipper & Hasp.nCute cat ears purse wallet with decorative tassel.nNote Compartment, Photo Holder, Card Holder."
+ },
+ { "id": 9,
+ "name": "FIVE PAIR HAPPY CAT PRINTED SOCKS",
+ "price": 15.99,
+ "image": "/imgs/cats_lover/Five-Pair-Happy-Cat-Printed-Socks_01.jpg", "description": "Five pair happy cat printed socks.nFive pair package with cute printing in each pair. Cotton socks, fashionable and cute happy cat design.nBrand Name: LIONZONE.nMaterial: Cotton, Polyester.nThickness: Standard.nItem Length: US7-9.nSock Type: Casual.nPattern Type: Animal.nItem Type: Sock.nFabric content: 85% Cotton,n15% Polyester.nFunction: Breathable.nPattern: Animal Print, Cartoon Cat.nSeason: Spring, Summer.nStyle: Ankle-High.nColor: Multi-Color.nWeight: About 0.165 Kg."
+ },
+ { "id": 10,
+ "name": "GOTHIC CAT PRINTED PAJAMA SET",
+ "price": 22.99,
+ "image": "/imgs/cats_lover/Gothic-Cat-Printed-Pajama-Set_01.jpg", "description": "Gothic cat printed pajama set.nSay good night to your kitty and sweet dreams for you both! Get a good night’s sleep with this comfy pajama set.nComfortable nightwear set so you can cuddle up with your cat. You will be a legit Cat Lady!nSize: XS | S | M | L | XLnGothic cat printed pajama set, super cute and trendy."
+ },
+ { "id": 11,
+ "name": "HOLLOW CAT WITH BELL BRACELET",
+ "price": 9.99,
+ "image": "/imgs/cats_lover/Hollow-Cat-with-Bell-Bracelet_01.jpg", "description": "Hollow cat with bell bracelet.n100% 925 Sterling Silver, super cute bracelet for women, small and delicate.nThe hollow cat with bell bracelet is a must-have for the cat lover girl."
+ },
+ { "id": 12,
+ "name": "HOLLOW CAT WITH BELL NECKLACE",
+ "price": 14.99,
+ "image": "/imgs/cats_lover/Hollow-Cat-with-Bell-Necklace-by-Flyleaf_01.jpg", "description": "Hollow cat with bell necklace by Flyleaf.n100% 925 Sterling Silver, super cute choker style jewelry for women, small and delicate.nThe hollow cat with bell necklace is a must-have for the cat lover girl."
+ },
+ { "id": 13,
+ "name": "LACE CAT EARS HEADBAND",
+ "price": 0.99,
+ "image": "/imgs/cats_lover/Lace-Cat-Ears-Headband_01-e1568734507370.jpg", "description": "Lace cat ears headband.nA perfect accessory to embrace your inner cat!nFit for many occasions such as baby shower, Halloween, family photo, cosplay party or a birthday party.n The lace cat ears headband is the perfect accessory for birthday celebrations, memorable photoshoots and every day fun for dress-up.nComfortable to wear, made of polyester fabric, totally handmade.nSize: One size fits all.nLace cat ears design, super cute and trendy."
+ },
+ { "id": 14,
+ "name": "SAILOR MOON LUNA SHOULDER BAG",
+ "price": 20.99,
+ "image": "/imgs/cats_lover/Sailor-Moon-Luna-Shoulder-Bag_01.jpg", "description": "Sailor Moon Luna shoulder bag.nBlack or white for Luna or Artemis. Fashionable shoulder bag, spacious and practical! They will shine with you wherever you go.nDurable and fashionable.nSuper cute, unique and practical.nPerfect as casual bag.nAdjustable and wide shoulder strap for comfortable shouldering.nSailor Moon Luna shoulder bag, original design and very lightweight shoulder bag."
+ } 
+],
+ "shop_for_cats": [
+ { "id":1 ,
+ "name": "BLUE ZIGZAG CAT TIPI TENT",
+ "price": 43.99,
+ "image": "/imgs/shop_for_cats/Blue-Zigzag-Cat-Tipi-Tent_02.jpg", "description": "Blue zigzag cat tipi, cool in the summer and warm in the winter, tipis make the perfect all-season cat home. Everyone needs a little space just for themselves, including our furry friends. These teepees provide the perfect scape for your kitty and are a charming addition to any room."
+ },
+ { "id": 2,
+ "name": "CAT CERAMIC BOWLS WITH BAMBOO TABLEWARE", "price": 20.99,
+ "image": "/imgs/shop_for_cats/Cat-Ceramic-Bowls-with-Bamboo-Tableware_01.jpg", "description": "Cat ceramic bowls with bamboo tableware.This cat food stand bowl is made from bamboo which has high water resistance properties. The cat ceramic bowls with bamboo tableware prevents your cat from sliding bowls around and provides protection for your floors. It is also very easy to clean, using these elevated cat feeders keeps the feeding area cleaner which is essential to a sanitary life, just simply wipe the surface of the feeder table clean.These elevated dishes provide easy access to food and water which can help facilitate the movement of food when traveling from the mouth to the stomach and it places less strain on the cat’s neck, hips, shoulders, and joints, which promotes better posture. The ceramic bowls are durable, sanitary, rust-free, non-leaching and dishwasher safe."
+ },
+ { "id": 3,
+ "name": "CAT INTERACTIVE WOOD PUZZLE",
+ "price": 39.99,
+ "image": "/imgs/shop_for_cats/Cat-Interactive-Wood-Puzzle_01.jpg", "description": "Cat interactive wood puzzle.Made of high-quality solid wood, durable, eco-friendly and bite-resistant, this addictive cat toy is designed with 5 holes at the top. The cartoon animals captivate your cat’s attention, this interactive toy is a great way to help your cat get the much needed daily exercise and excitement, it keeps your cat away from boredom and excites his natural instincts and curiosity. The cat interactive wood puzzle increases the bond between the cat and its owner. It is a great way for you to play with your lovely cat!"
+ },
+ { "id": 4,
+ "name": "CAT SCRATCHER HOUSE TOY",
+ "price": 41.99,
+ "image": "/imgs/shop_for_cats/Cat-Scratcher-House-Toy_02.jpg", "description": "Cat scratcher house toy for your cats, a triangle-shaped house with stable and foldable design.Environment safe materials and easy to assemble with step by step instruction included, this cat scratcher house toy is a cute tent for cats to hide and feel safe in! It has a scratching board on the side that will save the rest of your furniture. It is easy storage, it folds flat and needs no assembly. The house toy is great for sleeping and also gives extra dimension for fun playtime too!"
+ },
+ { "id":5 ,
+ "name": "CAT SCRATCHING POST NON TOXIC SISAL HEMP", "price": 7.99,
+ "image": "/imgs/shop_for_cats/Cat-Scratching-Post-Non-Toxic-Sisal-Hemp_01.jpg", "description": "Cat scratching post, non-toxic sisal hemp, protects furniture from your kitty’s grinding claws.Great cat’s toy, beautifully designed for cats to scratch, easy to assemble with step by step instructions."
+ },
+ { "id": 6,
+ "name": "CAT TEASER WAND WITH BELL AND FEATHERS",
+ "price": 8.99,
+ "image": "/imgs/shop_for_cats/Cat-Teaser-Wand-with-Bell-and-Feathers_01.jpg", "description": "Cat teaser wooden wand with bell and bird feathers. Very interactive toy to strengthen the relationships between you and your cat.Kitty will flip, jump, pounce, chase and prowl with this wooden cat toy."
+ },
+ { "id": 7,
+ "name": "COLORFUL FEATHER WAND WITH BELL",
+ "price": 7.99,
+ "image": "/imgs/shop_for_cats/Colorful-Feather-Wand-with-Bell_01.jpg", "description": "Colorful feather wand with bell, chaser toy.Cats love feathers! Your kitty will have the time of his life with these colorful wands."
+ },
+ { "id":8 ,
+ "name": "DIY WASHABLE CAT NEST",
+ "price": 48.99,
+ "image": "/imgs/shop_for_cats/DIY-Washable-Cat-Nest_01.jpg", "description": "DIY washable cat nest. It provides the ultimate comfort and luxury for your pet.Your cat will love this bed with a pillow! Bright holiday colors and unique design, cute and sweet."
+ },
+ { "id": 9,
+ "name": "GREEN PRINTED TUNNEL WITH BALL",
+ "price": 16.99,
+ "image": "/imgs/shop_for_cats/Green-Printed-Tunnel-with-Ball_01.jpg", "description": "Green printed tunnel toy with fun ball for your kitty.Lovely green design, your cat won’t be able to resist.Printed-design, get your cat’s attention.Easy to fold, save your space.Easy to clean.This green printed tunnel toy is a great kind of exercise for your cat."
+ },
+ { "id": 10,
+ "name": "HOME SHAPED CAT BED",
+ "price": 25.99,
+ "image": "/imgs/shop_for_cats/Home-Shaped-Cat-Bed_01.jpg", "description": "Home shaped cat bed, perfect all-season cat home.Everyone needs a little space just for themselves, including our furry friends. This home shaped cat bed provides the perfect scape for your kitty and is a charming addition to any room."
+ },
+ { "id": 11,
+ "name": "NAVY BLUE ZIGZAG CAT TIPI TENT",
+ "price": 42.99,
+ "image": "/imgs/shop_for_cats/Navy-Blue-Zigzag-Cat-Tipi-Tent_01.jpg", "description": "Navy blue zigzag cat tipi, cool in the summer and warm in the winter, tipis make the perfect all-season cat home.Everyone needs a little space just for themselves, including our furry friends. These teepees provide the perfect scape for your kitty and are a charming addition to any room."
+ },
+ { "id": 12,
+ "name": "PLAIN WHITE CAT TIPI TENT",
+ "price": 46.99,
+ "image": "/imgs/shop_for_cats/Plain-White-Cat-Tipi-Tent_01.jpg", "description": "Plain white cat tipi, cool in the summer and warm in the winter, tipis make the perfect all-season cat home.Everyone needs a little space just for themselves, including our furry friends. These teepees provide the perfect scape for your kitty and are a charming addition to any room."
+ },
+ { "id": 13,
+ "name": "REMOVABLE CAT WINDOW BED",
+ "price": 24.99,
+ "image": "/imgs/shop_for_cats/Removable-Cat-Window-Bed_01.jpg", "description": "Removable cat window bed that will keep your kitty cozy and warm!Everyone needs a little space just for themselves, including our furry friends. These hanging beds provide the perfect spot for your kitty and are a charming addition to any room."
+ },
+ { "id": 14,
+ "name": "SUPER CUTE SOFT CAT BED FOR WINTER",
+ "price": 14.99,
+ "image": "/imgs/shop_for_cats/Super-Cute-Soft-Cat-Bed-for-Winter_01.jpg", "description": "Super cute soft cat bed for winter.Everyone needs a little space just for themselves, including our furry friends. This super cute soft cat bed provides the perfect comfort for your kitty and is a charming addition to any room."
+ },
+ { "id":15 ,
+ "name": "WHITE LACE CAT TIPI TENT",
+ "price": 44.99,
+ "image": "/imgs/shop_for_cats/White-Lace-Cat-Tipi-Tent_01.jpg", "description": "White lace cat tipi, cool in the summer and warm in the winter, tipis make the perfect all-season cat home.Everyone needs a little space just for themselves, including our furry friends. These teepees provide the perfect scape for your kitty and are a charming addition to any room."
+ },
+ { "id":16 ,
+ "name": "WOODEN STICK CAT TOYS SET",
+ "price": 18.99,
+ "image": "/imgs/shop_for_cats/Wooden-Stick-Cat-Toys-Set_01.jpg", "description": "Wooden stick cat toys set. Very interactive toy to strengthen the relationships between you and your cat.Kitty will flip, jump, pounce, chase and prowl with this wooden cat toys."
+ } ] } 

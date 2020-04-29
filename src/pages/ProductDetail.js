@@ -18,6 +18,11 @@ class ProductDetail extends Component {
                 cat: result
             }))
         }
+        else if(this.props.match.params.type=="shop_for_cats"){
+            getProductDetails(parseInt(id),"shop_for_cats").then(result => this.setState({
+                cat: result
+            }))
+        }
         else{
             getProductDetails(parseInt(id),"cats_lover").then(result => this.setState({
                 cat: result
